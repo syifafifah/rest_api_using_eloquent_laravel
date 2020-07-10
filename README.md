@@ -8,15 +8,15 @@ First, you need to install your laravel project:
 
 <p>-- composer create-project --prefer-dist laravel/laravel rest_api_using_eloquent_laravel<br>
 -- cd rest_api_using_eloquent_laravel</p>
-Setup your database in .env
+Setup your database in .env<br>
 
 Create model
 <p>-- php artisan make:model Menus -m</p>
-go to edit migration file, initial your table.
+go to edit migration file, initial your table.<br>
 
 Migrate to create table to DB
 <p>-- php artisan migrate</p>
-go to check your DB
+go to check your DB<br>
 
 Make dummy data using Faker and Seeder
 <p>-- php artisan make:factory MenusFactory</p>
@@ -24,12 +24,12 @@ go to edit factories file.
 <p>-- php artisan make:seeder MenusTableSeeder</p>
 go to seeder file, set how much dummy data you want. and call this seeder to databaseSeeder.
 <p>-- php artisan db:seed</p>
-wussh you got your dummy data.
+wussh you got your dummy data.<br>
 
 Create controller
 <p>-- php artisan make:controller MenusController --resource --model=Menus</p>
 
-Update route file, web.php.
+Update route file, web.php.<br>
 
 This is the output:
 ## 1. Get all menus
