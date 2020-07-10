@@ -1,7 +1,7 @@
 ## Rest API using Eloquent Laravel
 
-Version 1.0
-Case: Menus. 
+Version 1.0<br>
+Case: Menus. <br>
 This API can display all menus, seach menu by id, edit menu, dan drop menu.
 
 First, you need to install your laravel project:
